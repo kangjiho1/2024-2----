@@ -1,8 +1,8 @@
 N = int(input())
 box = []
-for N in box:
-    box.append(N)
-box.sort()
-boxs = set(box)
-for i in boxs:
+for i in box:
+    a = int(input())
+    box.append(a)
+b = box.sort()
+for i in b:
     print(i)
